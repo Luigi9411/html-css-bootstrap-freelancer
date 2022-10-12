@@ -1,10 +1,93 @@
 
-.header-page{
-    background-color: #1ABC9C;
+body {
+	font-family: 'Montserrat', sans-serif;
 }
 
-.nav-top{
-    height: 3em;
-    background-color: ;
+.header-page {
+	background-color: #1ABC9C;
 }
 
+.nav-top {
+	background-color: #2C3E50;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.img-profile {
+	display: inline-block;
+	height: 100px;
+	background-color: white;
+}
+
+.bl_card {
+	border-radius: 2rem;
+	overflow: hidden;
+    position: relative; 
+}
+
+.bl_card:hover img{
+    opacity: 0.4;
+}
+
+.bl_card .fa-plus{
+    position: absolute;
+    top: 1.2em;
+    right: 1.8em;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    font-size: 50px;
+}
+
+.bl_card:hover .fa-plus{
+    opacity: 1.5;
+}
+
+.about {
+	background-color: #1ABC9C;
+}
+
+.btn-send {
+	background-color: #1ABC9C;
+}
+
+.offcanvas-body .nav-link{
+    color: white;
+}
+
+.offcanvas-body .nav-link:hover{
+    color: #1ABC9C;
+}
+
+.linee-img{
+    max-width: 9%;
+    max-height: 2%;
+    border-radius: 30px;
+    filter: invert(1);
+}
+
+.linee-img2{
+    max-width: 9%;
+    max-height: 2%;
+    border-radius: 30px;
+}
+
+.color-star{
+    color: black;
+}
+
+/* form control */
+
+.mb-3 .form-control{
+    border: none;
+    border-top: 1px solid #ced4da;
+    border-radius: 0;
+}
+
+.mb-4 .form-control{
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+}
