@@ -1,6 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+.header-page{
+    background-color: #1ABC9C;
+}
+
+.nav-top{
+    height: 3em;
+    background-color: ;
 }
 
