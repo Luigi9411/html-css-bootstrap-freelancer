@@ -24,7 +24,7 @@ body {
 .bl_card {
 	border-radius: 2rem;
 	overflow: hidden;
-    position: relative; 
+    position: relative;
 }
 
 .bl_card:hover img{
@@ -90,4 +90,31 @@ body {
     border: none;
     border-bottom: 1px solid #ced4da;
     border-radius: 0;
+}
+
+/* location */
+
+.location{
+    background-color: #3A546D;
+}
+
+.color-text2{
+    color: white;
+}
+
+ .bi{
+    padding: .4em .5em;
+    border-radius: 100%;
+    border: 1px solid white;
+    color: white;
+}
+
+.span-color{
+    color: #1ABC9C;
+}
+
+footer{
+    height: 120px;
+    background-color:#2C3E50;
+    color: white;
 }
